@@ -21,11 +21,11 @@ pub(crate) use crate::offramp::{self, Offramp};
 pub(crate) use crate::pipeline;
 pub(crate) use crate::postprocessor::{self, Postprocessor, Postprocessors};
 pub(crate) use crate::url::TremorURL;
-pub(crate) use crate::utils::nanotime;
 pub(crate) use crate::utils::ConfigImpl;
-pub(crate) use crate::utils::{duration_to_millis, hostname, nanotime};
+//pub(crate) use crate::utils::{duration_to_millis, hostname, nanotime};
+pub(crate) use crate::utils::nanotime;
 pub(crate) use crate::{Event, OpConfig};
-pub(crate) use async_std::task;
+//pub(crate) use async_std::task;
 //pub(crate) use crossbeam_channel::{Receiver, Sender, TryRecvError};
 use std::mem;
 
